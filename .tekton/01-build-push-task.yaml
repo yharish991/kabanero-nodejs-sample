@@ -84,7 +84,7 @@ spec:
 
         oc delete secret docker-icr-secret --ignore-not-found=true
   
-        echo "Done!"
+        echo "Done!!"
         
     volumeMounts:
     - mountPath: /var/lib/containers
